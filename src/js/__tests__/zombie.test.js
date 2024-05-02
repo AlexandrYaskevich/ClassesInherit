@@ -1,6 +1,6 @@
 import Character from '../zombie';
 
-test('test class Daemon', () => {
+test('test class Zombie', () => {
   const classes = new Character('player', 'Zombie');
   const result = {
     name: 'player',

@@ -17,7 +17,13 @@ export default class Character {
         this.level = 1;
         this.attack = attack;
         this.defence = defence;
+        
     }
-
+    damage(points) {
+      this.health -= points * (1 - this.defence / 100);
+      if (this.health < 0) {
+        this.health = 0;
+      }
+    }
 }
 

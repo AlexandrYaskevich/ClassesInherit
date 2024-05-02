@@ -30,3 +30,10 @@ test('test name < 2', () => {
     };
     expect(character).toMatchObject(result);
   });
+
+  test('test damage', () => {
+    const character = new Character('player', 'Magician');
+    character.defence = 40;
+    character.damage(50);
+    expect(character.health).toBe(70);
+  });
