@@ -4,7 +4,7 @@ test('test class Magician', () => {
   const classes = new Character('player', 'Magician');
   const result = {
     name: 'player',
-    type: 'Magacian',
+    type: 'Magician',
     health: 100,
     level: 1,
     attack: 10,

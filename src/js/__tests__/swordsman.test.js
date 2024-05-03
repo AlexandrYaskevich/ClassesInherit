@@ -1,10 +1,10 @@
 import Character from '../bowman';
 
 test('test class Bowman', () => {
-  const classes = new Character('player', 'Bowman');
+  const classes = new Character('player', 'Swordsman');
   const result = {
-    name: 'Player',
-    type: 'Bowman',
+    name: 'player',
+    type: 'Swordsman',
     health: 100,
     level: 1,
     attack: 25,
